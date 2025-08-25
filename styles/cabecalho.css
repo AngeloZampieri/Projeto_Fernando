@@ -1,12 +1,14 @@
 header {
-    display: inline;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 5em;
+    height: auto;
 }
 
 .logo_fernando {
     width: 600px;
-    margin-left: 4em;
+    margin-left: 5em;
     margin-top: 4em;
 }
 
@@ -16,4 +18,21 @@ header {
     color: var(--cor-texto-normal);
     font-size: 70px;
     padding-top: 1em;
+    margin-left: 1em;
+}
+
+.cor_destaque {
+    color: var(--cor-texto-destaque);
+}
+
+@media screen and (min-width: 1024px) {
+    .logo_fernando {
+        margin-left: 12em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .logo_fernando {
+        margin-left: 27em;
+    }
 }
