@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Música FZ</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Koh+Santepheap:wght@100;300;400;700;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo_fernando" src="images/musica_FZ_logo_branca.png" alt="Logo fernando Branca">
+        <h1 class="titulo_primeira_sessao">Aprenda a tocar violão <br> <b class="cor_destaque">sem sair de casa!</b>
+        </h1>
+    </header>
+    <section class="primeira_sessao_apresentacao">
+        <div>
+            <p class="primeira_sessao_subtitulo">Não importa se você nunca segurou um violão. Com aulas práticas e
+                um método simples, você vai aprender do
+                zero a tocar suas primeiras músicas em poucas semanas.</p>
+            <a class="obter_acesso botao_1" href="https://www.youtube.com/?gl=BR&hl=pt">OBTER ACESSO AO CURSO</a>
+        </div>
+        <img class="foto_primeira_sessao" src="images/18022025-DSC08080.jpg" alt="Foto Fernando">
+    </section>
+
+    <div class="video_apresentacao">
+        <video width="900" height="900" controls poster="images/perfil_06.jpg">
+            <source src="images/intro_FZ_musica_reels.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <section class="segunda_sessao">
+        <h2 class="titulo_segunda_sessao">O que você vai <br> aprender:</h2>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="images/arte_carrossel.JPG" alt="Livro Angular"></div>
+                <div class="swiper-slide"><img src="images/arte_carrossel.JPG" alt="Livro Kafka"></div>
+                <div class="swiper-slide"><img src="images/arte_carrossel.JPG" alt="Livro Gestão"></div>
+                <div class="swiper-slide"><img src="images/arte_carrossel.JPG" alt="Livro Metricas ageis"></div>
+                <div class="swiper-slide"><img src="images/arte_carrossel.JPG" alt="Livro React"></div>
+                <div class="swiper-slide"><img src="images/arte_carrossel.JPG" alt="Livro Ux"></div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+        <div class="segundo_topico">
+            <h2 class="segundo_titulo">Clique no botão abaixo e <br> garanta sua vaga. <br>
+                O violão te espera!</h2>
+            <a class="obter_acesso botao_2" href="https://www.youtube.com/?gl=BR&hl=pt">OBTER ACESSO <br> AO CURSO</a>
+        </div>
+
+    </section>
+
+    <section class="terceira_sessao">
+        <div class="sobre_mim">
+            <img class="imagem_sobre_mim" src="/images/estudio.jpg" alt="foto estudio">
+            <p class="texto_sobre_mim">FORMADO EM
+                PARARARARARAPARAASADASJDAKJDKALDAKDKADJKADJAJDJKALJKDJAKKDJAKJDKAKJDLKAKDJLKAJKLDJKAD
+                JAKLDJKAJLKDFDHSJSFQIJDADLKJASDASDPARARARARARAPARAASADASJDAJAKLDJKAJLKDFDHSJSFQIJDADLKJASDASDPARARARARARAPARAASADASJDA
+            </p>
+        </div>
+        <div class="preco_promocional">
+            <img class="imagem_preco_promocinal" src="/images/Group 1.png" alt="imagem preço">
+            <a class="obter_acesso botao_3" href="https://www.youtube.com/?gl=BR&hl=pt">OBTER ACESSO AO CURSO</a>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            spaceBetween: 50,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            effect: 'coverflow', // Ativa o efeito Coverflow
+            coverflowEffect: {
+                rotate: 50, // Rotação dos slides em graus
+                stretch: 0, // Esticamento ou compressão dos slides (0 para nenhum)
+                depth: 100, // Profundidade dos slides (quanto mais fundo, menor parece ser o slide)
+                modifier: 1, // Multiplicador para o efeito (ajusta a intensidade)
+                slideShadows: true, // Adiciona uma sombra sutil aos slides
+            },
+
+        });
+    </script>
+
+</body>
+<footer>
+    <p class="texto_footer">Tem alguma dúvida <br> ou precisa de ajuda ?</p>
+    <a class="botao_fale_conosco" href="https://www.youtube.com/?gl=BR&hl=pt">Fale conosco</a>
+</footer>
+
+</html>

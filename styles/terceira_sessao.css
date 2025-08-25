@@ -1,0 +1,46 @@
+.terceira_sessao{
+    align-items: center;
+    margin-top: 10em;
+    padding: 1em;
+    
+}
+
+.sobre_mim{
+    display: flex;
+    align-items: center;
+}
+
+.imagem_sobre_mim{
+    width: 550px;
+    border-radius: 20px;
+}
+
+.texto_sobre_mim{
+    color: var(--cor-texto-normal);
+    font-size: 25px;
+    text-align: center;
+    margin-left: 2em;
+    word-break: break-all;
+}
+
+.preco_promocional{
+    margin-top: 20em;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imagem_preco_promocinal{
+    width: 650px;
+    position: relative;
+    margin-left: 2em;
+}
+
+.botao_3{
+    position: absolute;
+    margin: 10em 0 0 6.5em;
+    width: 300px;
+}
+
+
