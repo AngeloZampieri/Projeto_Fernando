@@ -1,0 +1,44 @@
+.segunda_sessao {
+    display: block;
+    align-items: center;
+}
+
+.titulo_segunda_sessao {
+    font-size: 70px;
+    font-weight: 600;
+    color: var(--cor-texto-normal);
+    text-align: center;
+    margin: 2em 0 2em 0;
+}
+
+.swiper-slide img{
+    border-radius: 30px;
+}
+
+.swiper-slide{
+    margin-right: 10px;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.segundo_topico{
+    margin-top: 10em;
+    align-items: center;
+}
+
+.segundo_titulo{
+    font-size: 70px;
+    text-align: center;
+    color: var(--cor-texto-normal);
+}
+
+.botao_2{
+    margin-top: 2em;
+    width: 400px;
+    margin-left: 6em;
+    display: block;
+    align-items: center;
+}

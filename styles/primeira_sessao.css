@@ -1,0 +1,52 @@
+.cor_destaque {
+    color: var(--cor-texto-destaque);
+}
+
+.primeira_sessao_apresentacao {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 3em;
+}
+
+.foto_primeira_sessao {
+    width: 450px;
+    border-radius: 10px;
+    margin-left: 3em;
+}
+
+.primeira_sessao_subtitulo {
+    color: var(--cor-texto-normal);
+    font-family: var(--font-secundaria);
+    font-size: 40px;
+    text-align: center;
+    width: 350px;
+    margin-left: 1em;
+}
+
+.obter_acesso {
+    display: flex;
+    background-color: var(--cor-texto-destaque);
+    text-decoration: none;
+    color: var(--cor-texto-normal);
+    border-radius: 10px;
+    font-size: 40px;    
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1em;
+    padding: 0.3em;
+    
+}
+
+.obter_acesso:hover{
+    color: black;
+    background-color: gray;
+}
+
+.botao_1{
+    margin-left: 1em;
+}
+
+.video_apresentacao{
+    margin-top: 10em;
+}
