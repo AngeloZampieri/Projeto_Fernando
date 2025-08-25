@@ -1,21 +1,21 @@
-.terceira_sessao{
+.terceira_sessao {
     align-items: center;
     margin-top: 10em;
     padding: 1em;
-    
+
 }
 
-.sobre_mim{
+.sobre_mim {
     display: flex;
     align-items: center;
 }
 
-.imagem_sobre_mim{
+.imagem_sobre_mim {
     width: 550px;
     border-radius: 20px;
 }
 
-.texto_sobre_mim{
+.texto_sobre_mim {
     color: var(--cor-texto-normal);
     font-size: 25px;
     text-align: center;
@@ -23,7 +23,7 @@
     word-break: break-all;
 }
 
-.preco_promocional{
+.preco_promocional {
     margin-top: 20em;
     display: grid;
     align-items: center;
@@ -31,16 +31,46 @@
 
 }
 
-.imagem_preco_promocinal{
+.imagem_preco_promocinal {
     width: 650px;
     position: relative;
     margin-left: 2em;
 }
 
-.botao_3{
+.botao_3 {
     position: absolute;
     margin: 10em 0 0 6.5em;
     width: 300px;
 }
 
+@media screen and (min-width: 1024px) {
+    .terceira_sessao {
+        margin-top: 15em;
+    }
 
+    .botao_3 {
+        margin-left: 9em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .imagem_sobre_mim {
+        width: 600px;
+        margin-left: 3em;
+    }
+
+    .texto_sobre_mim {
+        width: 500px;
+        margin-left: 5em;
+    }
+
+    .imagem_preco_promocinal {
+        width: 500px;
+    }
+
+    .botao_3 {
+        font-size: 30px;
+        margin-left: 20.5em;
+    }
+
+}
