@@ -2,23 +2,22 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 5em;
-    height: auto;
+    align-items: center;
 }
 
 .logo_fernando {
-    width: 600px;
-    margin-left: 5em;
-    margin-top: 4em;
+    width: 300px;
+    margin-top: 2em;
 }
 
 .titulo_primeira_sessao {
     font-family: var(--fonte-titulos);
     text-align: center;
     color: var(--cor-texto-normal);
-    font-size: 70px;
+    font-size: 40px;
     padding-top: 1em;
-    margin-left: 1em;
+    width: 400px;
+    align-items: center;
 }
 
 .cor_destaque {
@@ -27,12 +26,20 @@ header {
 
 @media screen and (min-width: 1024px) {
     .logo_fernando {
-        margin-left: 12em;
+        width: 550px;
+        margin-top: 2em;
+    }
+
+    .titulo_primeira_sessao {
+        font-size: 60px;
+        width: 600px;
+
     }
 }
 
 @media screen and (min-width: 1400px) {
-    .logo_fernando {
-        margin-left: 27em;
+    .titulo_primeira_sessao {
+        font-size: 60px;
+        width: 900px;
     }
 }

@@ -2,25 +2,26 @@
     align-items: center;
     margin-top: 10em;
     padding: 1em;
-
 }
 
 .sobre_mim {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .imagem_sobre_mim {
-    width: 550px;
+    width: 400px;
     border-radius: 20px;
 }
 
 .texto_sobre_mim {
     color: var(--cor-texto-normal);
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: 2em;
     text-align: center;
-    margin-left: 2em;
     word-break: break-all;
+    width: 350px;
 }
 
 .preco_promocional {
@@ -28,28 +29,46 @@
     display: grid;
     align-items: center;
     justify-content: center;
-
 }
 
 .imagem_preco_promocinal {
-    width: 650px;
+    width: 400px;
     position: relative;
-    margin-left: 2em;
+
 }
 
 .botao_3 {
     position: absolute;
-    margin: 10em 0 0 6.5em;
-    width: 300px;
+    margin: 10em 0 0 2em;
+    width: 250px;
+    font-size: 30px;
 }
 
 @media screen and (min-width: 1024px) {
-    .terceira_sessao {
-        margin-top: 15em;
+    .sobre_mim {
+        flex-direction: unset;
+    }
+
+    .imagem_sobre_mim {
+        width: 550px;
+        border-radius: 40px;
+        margin-right: 3em;
+    }
+
+    .texto_sobre_mim {
+        font-size: 30px;
+        width: 350px;
+        margin-top: 0;
+    }
+
+    .imagem_preco_promocinal {
+        width: 700px;
     }
 
     .botao_3 {
-        margin-left: 9em;
+        margin: 10em 0 0 5.5em;
+        width: 400px;
+        font-size: 50px;
     }
 }
 
@@ -73,4 +92,10 @@
         margin-left: 20.5em;
     }
 
+}
+
+@media screen and (min-width: 1400px) {
+        .botao_3 {
+        margin-left: 18em;
+    }
 }

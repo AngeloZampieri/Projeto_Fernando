@@ -23,7 +23,7 @@
         </h1>
     </header>
     <section class="primeira_sessao_apresentacao">
-        <div>
+        <div class="primeira_sessao_container">
             <p class="primeira_sessao_subtitulo">Não importa se você nunca segurou um violão. Com aulas práticas e
                 um método simples, você vai aprender do
                 zero a tocar suas primeiras músicas em poucas semanas.</p>
@@ -32,17 +32,18 @@
         <img class="foto_primeira_sessao" src="images/18022025-DSC08080.jpg" alt="Foto Fernando">
     </section>
 
-    <div class="video_apresentacao">
-        <video width="700" height="900" controls poster="images/perfil_06.jpg">
-            <source src="images/intro_FZ_musica_reels.mp4" type="video/mp4">
-        </video>
-    </div>
+    <section class="video_container">
+        <div class="video_apresentacao">
+            <video width="98%" height="98%" controls poster="images/perfil_06.jpg">
+                <source class="video" src="images/intro_FZ_musica_reels.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
 
     <section class="segunda_sessao">
         <h2 class="titulo_segunda_sessao">O que você vai <br> aprender:</h2>
         <div class="swiper">
             <!-- Additional required wrapper -->
-
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
 
@@ -65,8 +66,8 @@
         </div>
 
         <div class="segundo_topico">
-            <h2 class="segundo_titulo">Clique no botão abaixo e <br> garanta sua vaga. <br>
-                O violão te espera!</h2>
+            <h2 class="segundo_titulo">Clique no botão abaixo e garanta sua vaga. <br> 
+               <b class="cor_destaque"> O violão te espera!</b> </h2>
             <a class="obter_acesso botao_2" href="https://www.youtube.com/?gl=BR&hl=pt">OBTER ACESSO <br> AO CURSO</a>
         </div>
 
@@ -92,7 +93,7 @@
     <script>
         const swiper = new Swiper('.swiper', {
             loop: true,
-            spaceBetween: 50,
+            spaceBetween: 10,
             slidesPerView: 3,
             pagination: {
                 el: '.swiper-pagination',
@@ -102,13 +103,13 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
-            effect: 'coverflow', // Ativa o efeito Coverflow
+            effect: 'coverflow',
             coverflowEffect: {
-                rotate: 50, // Rotação dos slides em graus
+                rotate: 20, // Rotação dos slides em graus
                 stretch: 0, // Esticamento ou compressão dos slides (0 para nenhum)
-                depth: 100, // Profundidade dos slides (quanto mais fundo, menor parece ser o slide)
+                depth: 50, // Profundidade dos slides (quanto mais fundo, menor parece ser o slide)
                 modifier: 1, // Multiplicador para o efeito (ajusta a intensidade)
-                slideShadows: true, // Adiciona uma sombra sutil aos slides
+                slideShadows: false, // Adiciona uma sombra sutil aos slides
             },
         });
     </script>
