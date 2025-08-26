@@ -16,7 +16,8 @@ body {
     background: -webkit-gradient(linear, left top, left bottom, from(#0C0941), to(#0D061D)) fixed;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    display: block;
     justify-content: center;
+    max-width: 100%;
+    overflow-x: hidden;
 }

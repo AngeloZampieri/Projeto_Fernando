@@ -1,22 +1,21 @@
 .primeira_sessao_apresentacao {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-top: 3em;
 }
 
 .foto_primeira_sessao {
-    width: 450px;
+    width: 200px;
     border-radius: 10px;
-    margin-left: 3em;
+    margin-left: 1em;
 }
 
 .primeira_sessao_subtitulo {
     color: var(--cor-texto-normal);
     font-family: var(--font-secundaria);
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
-    width: 350px;
+    width: 180px;
     margin-left: 1em;
 }
 
@@ -26,12 +25,12 @@
     text-decoration: none;
     color: var(--cor-texto-normal);
     border-radius: 10px;
-    font-size: 40px;
+    font-size: 15px;
     font-weight: 600;
     text-align: center;
     margin-top: 1em;
     padding: 0.3em;
-
+    width: 150px;
 }
 
 .obter_acesso:hover {
@@ -40,47 +39,59 @@
 }
 
 .botao_1 {
-    margin-left: 1em;
+    margin-left: 2em;
 }
 
 .video_apresentacao {
-    margin-top: 10em;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
 }
+
 
 @media screen and (min-width: 1024px) {
     .foto_primeira_sessao {
-        margin-left: 11em;
+        width: 500px;
+        margin-left: 2em;
+        border-radius: 30px;
     }
 
     .primeira_sessao_subtitulo {
-        margin-left: 3em;
+        margin-left: 1.5em;
+        font-size: 40px;
+        width: 400px;
     }
 
     .botao_1 {
-        margin-left: 3em;
+        margin-left: 3.5em;
+        font-size: 30px;
+        width: 300px;
     }
 
     .video_apresentacao {
-        margin-left: 5em;
+        margin-left: 1em;
     }
 }
 
 @media screen and (min-width: 1400px) {
     .foto_primeira_sessao {
-        margin-right: 3em;
+        width: 450px;
+        margin-left: 10em;
     }
 
     .primeira_sessao_subtitulo {
-        margin-left: 5em;
-        width: 500px;
+        margin-left: 4em;
+        width: 700px;
     }
 
     .botao_1 {
-        margin-left: 4.5em;
+        margin-left: 12em;
     }
 
     .video_apresentacao {
-        margin-left: 25em;
+        margin-left: 2em;
+        scale: 70%;
     }
 
 }
