@@ -9,11 +9,11 @@
     --fonte-titulos: "ADLaM Display";
     --font-secundaria: "Koh Santepheap";
     --cor-texto-normal: #ffffff;
-    --cor-texto-destaque: #DBBC12;
+    --cor-texto-destaque: #FAB000;
 }
 
 body {
-    background: -webkit-gradient(linear, left top, left bottom, from(#0C0941), to(#0D061D)) fixed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#001F4D), to(#030710)) fixed;
     width: 100%;
     height: 100%;
     display: block;
