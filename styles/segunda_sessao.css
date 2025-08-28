@@ -10,7 +10,7 @@
     font-weight: 600;
     color: var(--cor-texto-normal);
     text-align: center;
-    margin: 2em 0 2em 0;
+    margin: 0 0 2em 0;
 }
 
 .swiper {
@@ -28,7 +28,7 @@
 }
 
 .segundo_topico {
-    margin-top: 10em;
+    margin-top: 5em;
     align-items: center;
 }
 
