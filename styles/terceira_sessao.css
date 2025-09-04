@@ -7,7 +7,7 @@
 .bonus_container {
     background-color: var(--background-bonus);
     border-radius: 30px;
-    margin: 2em;
+    margin: 1em;
     padding: 1.5em;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .imagem_sobre_mim {
-    width: 400px;
+    width: 100%;
     border-radius: 20px;
     margin-top: 2em;
 }
@@ -67,19 +67,32 @@
 }
 
 .imagem_preco_promocinal {
-    width: 330px;
+    width: 100%;
     position: relative;
     border-radius: 30px;
 }
 
 .botao_3 {
     position: absolute;
-    margin: 10em 0 0 1.7em;
+    margin: 10em 0 0 1em;
     width: 250px;
     font-size: 30px;
 }
 
 @media screen and (min-width: 1024px) {
+    .bonus_container {
+        margin: 10em 5em 10em 5em;
+    }
+
+    .titulo_bonus {
+        font-size: 80px;
+    }
+
+    .lista_bonus_container {
+        width: 650px;
+        font-size: 70px;
+    }
+
     .sobre_mim {
         flex-direction: unset;
     }
@@ -108,6 +121,19 @@
 }
 
 @media screen and (min-width: 1400px) {
+    .bonus_container {
+        margin: 10em 8em 10em 8em;
+    }
+
+    .titulo_bonus {
+        font-size: 70px;
+    }
+
+    .lista_bonus_container {
+        width: 500px;
+        font-size: 50px;
+    }
+
     .imagem_sobre_mim {
         width: 600px;
         margin-left: 3em;
