@@ -18,27 +18,31 @@
 
 <body>
     <header class="cabecalho">
+        <div id="countdown">
+            <h2 class="countdown_titulo">Oferta por tempo limitado!</h2>
+            <span id="timer">10:00</span>
+        </div>
         <img class="logo_fernando" src="images/musica_FZ_logo_branca.png" alt="Logo fernando Branca">
-        <h1 class="titulo_primeira_sessao">Aprenda a tocar violão <br> <b class="cor_destaque">sem sair de casa!</b>
+        <h1 class="titulo_primeira_sessao"> Dominando <b class="cor_destaque">os solos</b>
         </h1>
     </header>
-    <section class="primeira_sessao_apresentacao">
-        <div class="primeira_sessao_container">
-            <p class="primeira_sessao_subtitulo">Não importa se você nunca segurou um violão. Com aulas práticas e
-                um método simples, você vai aprender do
-                zero a tocar suas primeiras músicas em poucas semanas.</p>
-            <a class="obter_acesso botao_1" href="https://www.youtube.com/?gl=BR&hl=pt">OBTER ACESSO AO CURSO</a>
-        </div>
-        <img class="foto_primeira_sessao" src="images/18022025-DSC08080.jpg" alt="Foto Fernando">
-    </section>
 
     <section class="video_container">
         <div class="video_apresentacao">
-            <video width="98%" height="98%" controls poster="images/perfil_06.jpg">
+            <video width="95%" height="95%" controls poster="images/perfil_06.jpg">
                 <source class="video" src="images/intro_FZ_musica_reels.mp4" type="video/mp4">
             </video>
         </div>
     </section>
+
+    <section class="primeira_sessao_apresentacao">
+        <div class="primeira_sessao_container">
+            <a class="obter_acesso botao_1" href="https://www.youtube.com/?gl=BR&hl=pt">OBTER ACESSO AO CURSO</a>
+            <p class="primeira_sessao_subtitulo">Domine os solos que você sempre quis tocar, com um método fácil, direto
+                ao ponto e 100% online.</p>
+        </div>
+    </section>
+
 
     <section class="segunda_sessao">
         <h2 class="titulo_segunda_sessao">O que você vai <br> aprender:</h2>
@@ -49,12 +53,10 @@
 
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="images/arte_carrossel.JPG" alt="Livro Angular"></div>
-                <div class="swiper-slide"><img src="images/arte_carrossel.JPG" alt="Livro Kafka"></div>
-                <div class="swiper-slide"><img src="images/arte_carrossel.JPG" alt="Livro Gestão"></div>
-                <div class="swiper-slide"><img src="images/arte_carrossel.JPG" alt="Livro Metricas ageis"></div>
-                <div class="swiper-slide"><img src="images/arte_carrossel.JPG" alt="Livro React"></div>
-                <div class="swiper-slide"><img src="images/arte_carrossel.JPG" alt="Livro Ux"></div>
+                <div class="swiper-slide"><img src="images/Arte_carrossel1.png" alt="Livro Angular"></div>
+                <div class="swiper-slide"><img src="images/Arte_carrossel2.png" alt="Livro Kafka"></div>
+                <div class="swiper-slide"><img src="images/Arte_carrossel3.png" alt="Livro Gestão"></div>
+                <div class="swiper-slide"><img src="images/Arte_carrossel4.png" alt="Livro Metricas ageis"></div>
             </div>
 
             <!-- If we need navigation buttons -->
@@ -65,15 +67,74 @@
             <div class="swiper-scrollbar"></div>
         </div>
 
-        <div class="segundo_topico">
-            <h2 class="segundo_titulo">Clique no botão abaixo e garanta sua vaga. <br> 
-               <b class="cor_destaque"> O violão te espera!</b> </h2>
-            <a class="obter_acesso botao_2" href="https://www.youtube.com/?gl=BR&hl=pt">OBTER ACESSO <br> AO CURSO</a>
-        </div>
-
+        <section class="beneficios_container">
+            <ul class="lista_beneficios">
+                <h2 class="titulo_lista">Benefícios do curso:</h2>
+                <li>
+                    <a href="#">
+                        <img src="./images/icon_check.svg" alt="Ícone check">
+                        Tablatura para todos os solos;
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/icon_check.svg" alt="Ícone check">
+                        Exemplos práticos e fáceis de aplicar;
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/icon_check.svg" alt="Ícone check">
+                        Método passo a passo;
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/icon_check.svg" alt="Ícone check">
+                        Sem teoria complicada;
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/icon_check.svg" alt="Ícone check">
+                        Aprenda acompanhando músicas reais;
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/icon_check.svg" alt="Ícone check">
+                        Novas aulas todos os meses;
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/icon_check.svg" alt="Ícone check">
+                        12 Meses de acesso a todo o material;
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/icon_check.svg" alt="Ícone check">
+                        Suporte exclusivo.
+                    </a>
+                </li>
+            </ul>
+        </section>
     </section>
 
     <section class="terceira_sessao">
+        <div class="bonus_container">
+            <ul class="lista_bonus">
+                <h2 class="titulo_bonus">Bônus Exclusivos</h2>
+                <hr />
+                <li class="lista_bonus_container"><b class="cor_destaque">Bônus 01:</b>
+                    Módulo de Técnica e Agilidade para destravar os dedos e melhoras a sua tocabilidade.</li>
+                <li class="lista_bonus_container"><b class="cor_destaque">Bônus 02:</b>
+                    Grupo VIP no WhatsApp para tirar dúvidas.</li>
+                <li class="lista_bonus_container"><b class="cor_destaque">Bônus 03:</b>
+                    Aulas semanais ao vivo.</li>
+            </ul>
+        </div>
         <div class="sobre_mim">
             <img class="imagem_sobre_mim" src="images/estudio.jpg" alt="foto estudio">
             <p class="texto_sobre_mim">FORMADO EM
@@ -82,9 +143,10 @@
             </p>
         </div>
         <div class="preco_promocional">
-            <img class="imagem_preco_promocinal" src="images/Group 1.png" alt="imagem preço">
+            <img class="imagem_preco_promocinal" src="images/preço_promocional.svg" alt="imagem preço">
             <a class="obter_acesso botao_3" href="https://www.youtube.com/?gl=BR&hl=pt">OBTER ACESSO AO CURSO</a>
         </div>
+
     </section>
 
 
@@ -107,17 +169,34 @@
             coverflowEffect: {
                 rotate: 20, // Rotação dos slides em graus
                 stretch: 0, // Esticamento ou compressão dos slides (0 para nenhum)
-                depth: 50, // Profundidade dos slides (quanto mais fundo, menor parece ser o slide)
+                depth: 0, // Profundidade dos slides (quanto mais fundo, menor parece ser o slide)
                 modifier: 1, // Multiplicador para o efeito (ajusta a intensidade)
+                scale: 0.8,
                 slideShadows: false, // Adiciona uma sombra sutil aos slides
+            },
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
             },
         });
     </script>
-
+    <script src="contador.js"></script>
 </body>
+
 <footer>
-    <p class="texto_footer">Tem alguma dúvida <br> ou precisa de ajuda ?</p>
-    <a class="botao_fale_conosco" href="https://www.youtube.com/?gl=BR&hl=pt">Fale conosco</a>
+    <hr class="linha_footer" />
+    <a class="icone_suporte" href="#"> <img src="./images/support-icon.svg" alt="icone de suporte"></a>
+    <p class="texto_footer"> Tem alguma dúvida <br>
+        ou precisa de ajuda ? </p>
+    <a class="botao_fale_conosco" href="https://www.youtube.com/?gl=BR&hl=pt"><img class="icone_whatsapp"
+            src="./images/whatsapp_icon.png" alt="icone whatsapp">Entre em contato</a>
+
+    <div class="selo_container">
+        <img class="selo_garantia" src="./images/Selo_de_Garantia_de_7_Dias_PNG_Transparente_Sem_Fundo.png"
+            alt="Selo de garantia">
+        <img class="selo_segurança" src="./images/segurança.svg" alt="Selo De Segurança">
+        <img class="selo_ssl" src="./images/certificado-ssl.png" alt="Certificado ssl">
+    </div>
 </footer>
 
 </html>

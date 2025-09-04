@@ -1,18 +1,52 @@
 .terceira_sessao {
     align-items: center;
-    margin-top: 10em;
+    margin-top: 2em;
     padding: 1em;
+}
+
+.bonus_container {
+    background-color: var(--background-bonus);
+    border-radius: 30px;
+    margin: 2em;
+    padding: 1.5em;
+}
+
+.bonus_container hr {
+    margin: 0;
+}
+
+.lista_bonus {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+}
+
+.titulo_bonus {
+    font-family: var(--fonte-titulos);
+    color: var(--cor-texto-destaque);
+    font-size: 42px;
+
+}
+
+.lista_bonus_container {
+    font: var(--font-secundaria);
+    color: var(--cor-texto-normal);
+    font-size: 25px;
 }
 
 .sobre_mim {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .imagem_sobre_mim {
     width: 400px;
     border-radius: 20px;
+    margin-top: 2em;
 }
 
 .texto_sobre_mim {
@@ -24,6 +58,7 @@
     width: 350px;
 }
 
+
 .preco_promocional {
     margin-top: 10em;
     display: grid;
@@ -32,14 +67,14 @@
 }
 
 .imagem_preco_promocinal {
-    width: 400px;
+    width: 330px;
     position: relative;
-
+    border-radius: 30px;
 }
 
 .botao_3 {
     position: absolute;
-    margin: 10em 0 0 2em;
+    margin: 10em 0 0 1.7em;
     width: 250px;
     font-size: 30px;
 }
@@ -95,7 +130,7 @@
 }
 
 @media screen and (min-width: 1400px) {
-        .botao_3 {
+    .botao_3 {
         margin-left: 18em;
     }
 }
