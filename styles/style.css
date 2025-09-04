@@ -10,10 +10,13 @@
     --font-secundaria: "Koh Santepheap";
     --cor-texto-normal: #ffffff;
     --cor-texto-destaque: #FAB000;
+    --background-secao: #0B1331;
+    --fonte-preta: #000000; 
+    --background-bonus: #0f162b;
 }
 
 body {
-    background: -webkit-gradient(linear, left top, left bottom, from(#001F4D), to(#030710)) fixed;
+    background: #060A1B;
     width: 100%;
     height: 100%;
     display: block;
