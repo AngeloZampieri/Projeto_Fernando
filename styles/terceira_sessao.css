@@ -131,12 +131,11 @@
 
     .imagem_sobre_mim {
         width: 600px;
-        margin-left: 3em;
     }
 
     .texto_sobre_mim {
-        width: 520px;
-        margin-left: 4em;
+        width: 750px;
+        
         word-break: break-word;
     }
 
