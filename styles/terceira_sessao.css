@@ -129,13 +129,20 @@
         font-size: 40px;
     }
 
+    .sobre_mim{
+        display: flex;
+        flex-direction: row;
+    }
+
     .imagem_sobre_mim {
         width: 600px;
+        margin-left: 3em;
     }
 
     .texto_sobre_mim {
-        width: 750px;
-        
+        width: 700px;
+        font-size: 30px;
+        margin-left: 3em;
         word-break: break-word;
     }
 
@@ -145,7 +152,7 @@
 
     .botao_3 {
         font-size: 30px;
-        margin-left: 20.5em;
+        margin-left: 17.5em;
     }
 
 }
