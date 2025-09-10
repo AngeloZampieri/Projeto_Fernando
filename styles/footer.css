@@ -61,61 +61,69 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+    .footer_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3em;
 
-    .selo_garantia,
-    .selo_ssl,
-    .selo_segurança {
-        width: 130px;
-    }
-
-    footer {
-        margin: 12em 0 0 0;
     }
 
     .texto_footer {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .icone_suporte img {
-    width: 110px;
-}
+        width: 100px;
+    }
 
     .botao_fale_conosco {
         width: 400px;
-        font-size: 55px;
+        font-size: 40px;
     }
 
     .icone_whatsapp {
-        margin-right: 0;
-        width: 110px;
+        width: 90px;
     }
-}
 
-@media screen and (min-width: 1400px) {
     .selo_garantia,
     .selo_ssl,
     .selo_segurança {
         width: 90px;
     }
 
-    footer {
-        margin: 12em 0 0 0;
+}
+
+@media screen and (min-width: 1400px) {
+    .footer_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3em;
+
     }
 
     .texto_footer {
-        font-size: 40px;
+        font-size: 35px;
+
     }
 
     .icone_suporte img {
-    width: 80px;
-}
+        width: 80px;
+    }
 
     .botao_fale_conosco {
-        width: 400px;
-        font-size: 40px;
+        width: 250px;
+        font-size: 25px;
     }
 
     .icone_whatsapp {
-        width: 70px;
+        width: 50px;
+    }
+
+    .selo_garantia,
+    .selo_ssl,
+    .selo_segurança {
+        width: 60px;
     }
 }
