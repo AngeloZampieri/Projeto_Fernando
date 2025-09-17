@@ -9,7 +9,7 @@ HTML: Para a estrutura e marcação da página.
 
 CSS: Para estilização, layout e responsividade.
 
-JavaScript: Para interatividade, incluindo a funcionalidade do carrossel.
+JavaScript: Usado para criar o carrossel, o cronômetro e o botão ver mais.
 
 Swiper.js: Uma biblioteca moderna e robusta para criar o carrossel de imagens interativo.
 
