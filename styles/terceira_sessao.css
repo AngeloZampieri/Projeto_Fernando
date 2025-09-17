@@ -58,32 +58,6 @@
     width: 350px;
 }
 
-
-.preco_promocional {
-    margin-top: 5em;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-}
-
-.imagem_preco_promocinal {
-    width: 100%;
-    position: relative;
-    width: 100%;
-    border: solid;
-    border-color: white;
-    font-size: 8px 30px white;
-    border-radius: 30px;
-}
-
-.botao_3 {
-    position: absolute;
-    margin: 15em 0 0 2.6em;
-    width: 250px;
-
-
-}
-
 .titulo_lista_musica {
     text-align: center;
     font-size: 30px;
@@ -129,6 +103,32 @@ li:nth-child(n+10) {
     font-weight: 600;
 }
 
+.preco_promocional {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem_preco_promocinal {
+    width: 100%;
+    position: relative;
+    width: 100%;
+    border: solid;
+    border-color: white;
+    font-size: 8px 30px white;
+    border-radius: 30px;
+}
+
+.botao_3 {
+    position: absolute;
+    width: max-content;
+    margin-top: 20em;
+}
+
+
+
 @media screen and (min-width: 1024px) {
     .bonus_container {
         margin: 10em 5em 10em 5em;
@@ -167,7 +167,7 @@ li:nth-child(n+10) {
     }
 
     .botao_3 {
-        margin: 10em 0 0 5.5em;
+        margin-top: 10em;
         width: 400px;
         font-size: 50px;
     }
@@ -204,7 +204,7 @@ li:nth-child(n+10) {
         word-break: break-word;
     }
 
-        .titulo_lista_musica {
+    .titulo_lista_musica {
         font-size: 30px;
     }
 
@@ -218,7 +218,7 @@ li:nth-child(n+10) {
 
     .botao_3 {
         font-size: 30px;
-        margin-left: 17.5em;
+        
     }
 
 }
