@@ -1,6 +1,6 @@
 .terceira_sessao {
     align-items: center;
-    margin-top: 2em;
+    margin-top: 1em;
     padding: 1em;
 }
 
@@ -46,21 +46,21 @@
 .imagem_sobre_mim {
     width: 100%;
     border-radius: 20px;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .texto_sobre_mim {
     color: var(--cor-texto-normal);
     font-size: 20px;
     margin-top: 2em;
-    text-align: center;
+    text-align: justify;
     word-break: break-word;
     width: 350px;
 }
 
 
 .preco_promocional {
-    margin-top: 10em;
+    margin-top: 5em;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -69,14 +69,64 @@
 .imagem_preco_promocinal {
     width: 100%;
     position: relative;
+    width: 100%;
+    border: solid;
+    border-color: white;
+    font-size: 8px 30px white;
     border-radius: 30px;
 }
 
 .botao_3 {
     position: absolute;
-    margin: 10em 0 0 1.7em;
+    margin: 15em 0 0 2.6em;
     width: 250px;
+
+
+}
+
+.titulo_lista_musica {
+    text-align: center;
     font-size: 30px;
+    font-weight: 600;
+    font-family: var(--fonte-titulos);
+    color: var(--cor-texto-normal);
+    margin-bottom: 1em;
+}
+
+.lista_musicas_container {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-texto-destaque);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.lista_musica {
+    font-family: var(--font-secundaria);
+    color: var(--cor-texto-normal);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1em;
+    word-break: break-word;
+}
+
+li:nth-child(n+10) {
+    display: none;
+}
+
+.botao_ver_mais {
+    width: fit-content;
+    margin-top: 1em;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-family: var(--font-secundaria);
+    color: var(--cor-texto-normal);
+    font-weight: 600;
 }
 
 @media screen and (min-width: 1024px) {
@@ -101,7 +151,15 @@
     .texto_sobre_mim {
         font-size: 35px;
         width: 700px;
-        
+
+    }
+
+    .titulo_lista_musica {
+        font-size: 40px;
+    }
+
+    .lista_musica {
+        font-size: 30px;
     }
 
     .imagem_preco_promocinal {
@@ -125,11 +183,11 @@
     }
 
     .lista_bonus_container {
-        width: 600px;
+        width: 400px;
         font-size: 40px;
     }
 
-    .sobre_mim{
+    .sobre_mim {
         display: flex;
         flex-direction: row;
     }
@@ -146,6 +204,14 @@
         word-break: break-word;
     }
 
+        .titulo_lista_musica {
+        font-size: 30px;
+    }
+
+    .lista_musica {
+        font-size: 20px;
+    }
+
     .imagem_preco_promocinal {
         width: 500px;
     }
@@ -156,4 +222,3 @@
     }
 
 }
-
