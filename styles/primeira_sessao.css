@@ -3,14 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 2em
 }
 
 .video_apresentacao {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1em;
+    margin-top: 1em
 }
 
 .primeira_sessao_subtitulo {
@@ -19,7 +19,7 @@
     font-size: 30px;
     text-align: center;
     width: 100%;
-    margin-top: 1em;
+    margin-top: 1em
 }
 
 .obter_acesso {
@@ -30,55 +30,53 @@
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    padding: 0.5em;
+    padding: .5em
 }
 
 .obter_acesso:hover {
-    color: black;
-    background-color: gray;
+    color: #000;
+    background-color: gray
 }
 
 .botao_1 {
     display: grid;
     justify-content: center;
-    font-size: 25px;
+    font-size: 25px
 }
 
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width:1024px) {
     .primeira_sessao_subtitulo {
         font-size: 40px;
-        width: 400px;
+        width: 400px
     }
 
     .botao_1 {
         font-size: 40px;
-        width: 500px;
+        width: 500px
     }
 
     .primeira_sessao_subtitulo {
         font-size: 50px;
-        width: 60%;
+        width: 60%
     }
-
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width:1400px) {
     .video_apresentacao {
         margin-top: -10em;
         margin-left: 2em;
-        scale: 60%;
+        scale: 60%
     }
 
     .primeira_sessao_subtitulo {
         font-size: 40px;
-        width: 700px;
+        width: 700px
     }
 
     .botao_1 {
         display: grid;
         justify-content: center;
         font-size: 35px;
-        margin-top: -5em;
+        margin-top: -5em
     }
 }

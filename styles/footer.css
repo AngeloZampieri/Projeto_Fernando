@@ -5,29 +5,28 @@ footer {
     align-items: center;
     margin-top: 2em;
     padding-bottom: 2em;
-    background-color: rgb(17, 17, 36);
+    background-color: #111124
 }
 
 .linha_footer {
     width: 100%;
-    background-color: white;
+    background-color: #fff;
     margin: 0;
-    height: 2px;
+    height: 2px
 }
 
-.icone_suporte img {
+.icone_suporte {
     width: 60px;
-    margin-bottom: 0.5em;
-    margin-top: 1em;
+    margin-bottom: .5em;
+    margin-top: 1em
 }
 
 .texto_footer {
     color: var(--cor-texto-normal);
     font-size: 30px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none
 }
-
 
 .botao_fale_conosco {
     background-color: #4bae4f;
@@ -40,90 +39,86 @@ footer {
     font-weight: 600;
     text-align: center;
     margin: 1em 0 1em 0;
-    padding: 0.3em;
-    width: 300px;
+    padding: .3em;
+    width: 300px
 }
 
 .icone_whatsapp {
     width: 65px;
-    margin-right: 0.1em;
+    margin-right: .1em
 }
 
 .botao_fale_conosco:hover {
-    color: black;
-    background-color: gray;
+    color: #000;
+    background-color: gray
 }
 
 .selo_garantia,
 .selo_ssl,
 .selo_segurança {
-    width: 55px;
+    width: 55px
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width:1024px) {
     .footer_container {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 3em;
-
+        gap: 3em
     }
 
     .texto_footer {
-        font-size: 50px;
+        font-size: 50px
     }
 
-    .icone_suporte img {
-        width: 100px;
+    .icone_suporte {
+        width: 100px
     }
 
     .botao_fale_conosco {
         width: 400px;
-        font-size: 40px;
+        font-size: 40px
     }
 
     .icone_whatsapp {
-        width: 90px;
+        width: 90px
     }
 
     .selo_garantia,
     .selo_ssl,
     .selo_segurança {
-        width: 90px;
+        width: 90px
     }
-
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width:1400px) {
     .footer_container {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 3em;
-
+        gap: 3em
     }
 
     .texto_footer {
-        font-size: 35px;
-
+        font-size: 35px
     }
 
-    .icone_suporte img {
-        width: 80px;
+    .icone_suporte {
+        width: 80px
     }
 
     .botao_fale_conosco {
         width: 250px;
-        font-size: 25px;
+        font-size: 25px
     }
 
     .icone_whatsapp {
-        width: 50px;
+        width: 50px
     }
 
     .selo_garantia,
     .selo_ssl,
     .selo_segurança {
-        width: 60px;
+        width: 60px
     }
 }

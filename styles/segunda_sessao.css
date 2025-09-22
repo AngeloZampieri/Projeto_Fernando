@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--cor-texto-destaque);
-    margin-top: 4em;
+    margin-top: 4em
 }
 
 .titulo_segunda_sessao {
@@ -12,30 +12,31 @@
     font-weight: 600;
     color: var(--cor-texto-normal);
     text-align: center;
-    margin: 1em 0 1em 0;
+    margin: 1em 0 1em 0
 }
 
 .swiper {
     max-width: 100%;
-    align-items: center;
+    align-items: center
 }
 
 .swiper-slide img {
     border-radius: 30px;
-    width: 120px;
+    width: 120px
 }
 
 .swiper-pagination {
-    margin: 0.5em 0;
+    margin: .5em 0
 }
 
-.swiper-button-prev, .swiper-button-next{
-    margin-top: 2.5em;
+.swiper-button-prev,
+.swiper-button-next {
+    margin-top: 2.5em
 }
 
 .beneficios_container {
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 2em
 }
 
 .titulo_lista {
@@ -44,15 +45,14 @@
     text-align: center;
     font-size: 40px;
     font-weight: 600;
-    margin-bottom: 1em;
+    margin-bottom: 1em
 }
 
 .lista_beneficios {
-    gap: 30px;
+    gap: 30px
 }
 
-
-.lista_beneficios li a {
+.lista_beneficios li {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -60,86 +60,76 @@
     font-family: var(--font-secundaria);
     font-size: 18px;
     font-weight: 600;
-    text-align: center;
+    text-align: center
 }
 
 .lista_beneficios li img {
     width: 30px;
-    margin-right: 1em;
+    margin-right: 1em
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width:1024px) {
     .titulo_segunda_sessao {
-        font-size: 80px;
+        font-size: 80px
     }
 
     .swiper {
-        max-width: 1000px;
+        max-width: 1000px
     }
 
     .swiper-slide img {
-        width: 350px;
+        width: 350px
     }
 
     .segundo_titulo {
         font-size: 80px;
-        width: 100%;
-    }
-
-    .botao_2 {
-        margin-left: 3.5em;
-        font-size: 40px;
-        width: 400px;
+        width: 100%
     }
 
     .titulo_lista {
-        font-size: 70px;
+        font-size: 70px
     }
 
-    .lista_beneficios li a {
-        font-size: 43px;
+    .lista_beneficios li {
+        font-size: 43px
     }
 
     .lista_beneficios li img {
-        width: 60px;
+        width: 60px
     }
 }
 
-@media screen and (min-width: 1400px) {
-    .segunda_sessao{
+@media screen and (min-width:1400px) {
+    .segunda_sessao {
         display: flex;
-        flex-direction: row;
+        flex-direction: row
     }
+
     .swiper {
-        max-width: 600px;
+        max-width: 600px
     }
 
     .swiper-slide img {
-        width: 200px;
+        width: 200px
     }
 
     .titulo_segunda_sessao {
-        font-size: 40px;
+        font-size: 40px
     }
 
     .titulo_lista {
-        font-size: 40px;
+        font-size: 40px
     }
 
-    .lista_beneficios{
-        margin-right: 2em;
+    .lista_beneficios {
+        margin-right: 5em
     }
 
-    .lista_beneficios li a {
-        font-size: 25px;
+    .lista_beneficios li {
+        font-size: 25px
     }
 
     .lista_beneficios li img {
-    width: 35px;
-}
-
-    .botao_2 {
-        margin-left: 9.5em;
+        width: 35px
     }
-
 }

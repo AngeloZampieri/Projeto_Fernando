@@ -1,9 +1,8 @@
-@import url("./primeira_sessao.css");
-@import url("./segunda_sessao.css");
-@import url("./terceira_sessao.css");
-@import url("./cabecalho.css");
-@import url("./footer.css");
-
+@import url(./primeira_sessao.css);
+@import url(./segunda_sessao.css);
+@import url(./terceira_sessao.css);
+@import url(./cabecalho.css);
+@import url(./footer.css);
 
 :root {
     --fonte-titulos: "ADLaM Display";
@@ -11,8 +10,8 @@
     --cor-texto-normal: #ffffff;
     --cor-texto-destaque: #FAB000;
     --background-secao: #0B1331;
-    --fonte-preta: #000000; 
-    --background-bonus: #0f162b;
+    --fonte-preta: #000000;
+    --background-bonus: #0f162b
 }
 
 body {
@@ -22,5 +21,5 @@ body {
     display: block;
     justify-content: center;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: hidden
 }

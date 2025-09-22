@@ -1,18 +1,18 @@
 .terceira_sessao {
     align-items: center;
     margin-top: 1em;
-    padding: 1em;
+    padding: 1em
 }
 
 .bonus_container {
     background-color: var(--background-bonus);
     border-radius: 30px;
     margin: 1em;
-    padding: 1.5em;
+    padding: 1.5em
 }
 
 .bonus_container hr {
-    margin: 0;
+    margin: 0
 }
 
 .lista_bonus {
@@ -20,33 +20,31 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 2em;
+    gap: 2em
 }
 
 .titulo_bonus {
     font-family: var(--fonte-titulos);
     color: var(--cor-texto-destaque);
-    font-size: 42px;
-
+    font-size: 42px
 }
 
 .lista_bonus_container {
     font: var(--font-secundaria);
     color: var(--cor-texto-normal);
-    font-size: 25px;
+    font-size: 25px
 }
 
 .sobre_mim {
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+    align-items: center
 }
 
 .imagem_sobre_mim {
     width: 100%;
     border-radius: 20px;
-    margin-top: 1em;
+    margin-top: 1em
 }
 
 .texto_sobre_mim {
@@ -55,7 +53,7 @@
     margin-top: 2em;
     text-align: justify;
     word-break: break-word;
-    width: 350px;
+    width: 350px
 }
 
 .titulo_lista_musica {
@@ -64,7 +62,7 @@
     font-weight: 600;
     font-family: var(--fonte-titulos);
     color: var(--cor-texto-normal);
-    margin-bottom: 1em;
+    margin-bottom: 1em
 }
 
 .lista_musicas_container {
@@ -75,7 +73,7 @@
     justify-content: center;
     background-color: var(--cor-texto-destaque);
     padding: 1em;
-    border-radius: 1em;
+    border-radius: 1em
 }
 
 .lista_musica {
@@ -85,22 +83,22 @@
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 1em;
-    word-break: break-word;
+    word-break: break-word
 }
 
 li:nth-child(n+10) {
-    display: none;
+    display: none
 }
 
 .botao_ver_mais {
     width: fit-content;
     margin-top: 1em;
-    background-color: transparent;
+    background-color: #fff0;
     border: none;
     font-size: 20px;
     font-family: var(--font-secundaria);
     color: var(--cor-texto-normal);
-    font-weight: 600;
+    font-weight: 600
 }
 
 .preco_promocional {
@@ -108,7 +106,7 @@ li:nth-child(n+10) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center
 }
 
 .imagem_preco_promocinal {
@@ -116,109 +114,104 @@ li:nth-child(n+10) {
     position: relative;
     width: 100%;
     border: solid;
-    border-color: white;
-    font-size: 8px 30px white;
-    border-radius: 30px;
+    border-color: #fff;
+    font-size: 8px 30px #fff;
+    border-radius: 30px
 }
 
-.botao_3 {
+.botao_2 {
     position: absolute;
     width: max-content;
-    margin-top: 20em;
+    margin-top: 20em
 }
 
-
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width:1024px) {
     .bonus_container {
-        margin: 10em 5em 10em 5em;
+        margin: 10em 5em 10em 5em
     }
 
     .titulo_bonus {
-        font-size: 70px;
+        font-size: 70px
     }
 
     .lista_bonus_container {
         width: 650px;
-        font-size: 70px;
+        font-size: 70px
     }
 
     .imagem_sobre_mim {
         width: 650px;
-        border-radius: 40px;
+        border-radius: 40px
     }
 
     .texto_sobre_mim {
         font-size: 35px;
-        width: 700px;
-
+        width: 700px
     }
 
     .titulo_lista_musica {
-        font-size: 40px;
+        font-size: 40px
     }
 
     .lista_musica {
-        font-size: 30px;
+        font-size: 30px
     }
 
     .imagem_preco_promocinal {
-        width: 700px;
+        width: 700px
     }
 
-    .botao_3 {
+    .botao_2 {
         margin-top: 10em;
         width: 400px;
-        font-size: 50px;
+        font-size: 50px
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width:1400px) {
     .bonus_container {
-        margin: 10em 12em 10em 12em;
+        margin: 10em 12em 10em 12em
     }
 
     .titulo_bonus {
-        font-size: 60px;
+        font-size: 60px
     }
 
     .lista_bonus_container {
         width: 400px;
-        font-size: 40px;
+        font-size: 40px
     }
 
     .sobre_mim {
         display: flex;
-        flex-direction: row;
+        flex-direction: row
     }
 
     .imagem_sobre_mim {
         width: 600px;
-        margin-left: 3em;
+        margin-left: 3em
     }
 
     .texto_sobre_mim {
         width: 700px;
         font-size: 30px;
         margin-left: 3em;
-        word-break: break-word;
+        word-break: break-word
     }
 
     .titulo_lista_musica {
-        font-size: 30px;
+        font-size: 30px
     }
 
     .lista_musica {
-        font-size: 20px;
+        font-size: 20px
     }
 
     .imagem_preco_promocinal {
-        width: 500px;
+        width: 500px
     }
 
-    .botao_3 {
-        font-size: 30px;
-        
+    .botao_2 {
+        font-size: 30px
     }
-
 }
