@@ -30,7 +30,7 @@
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    padding: .5em
+    padding: 0.5em
 }
 
 .obter_acesso:hover {
@@ -41,7 +41,7 @@
 .botao_1 {
     display: grid;
     justify-content: center;
-    font-size: 25px
+    font-size: 25px;
 }
 
 @media screen and (min-width:1024px) {
@@ -63,7 +63,7 @@
 
 @media screen and (min-width:1400px) {
     .video_apresentacao {
-        margin-top: -10em;
+        margin-top: -12em;
         margin-left: 2em;
         scale: 60%
     }
