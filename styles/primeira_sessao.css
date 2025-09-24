@@ -12,11 +12,11 @@
     justify-content: center;
     margin-top: 1em;
     position: relative;
-    padding-bottom: 56.25%; /* Proporção de aspecto 16:9 (altura / largura = 9 / 16 = 0.5625) */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
-    max-width: 100%; /* Garante que o container não exceda a largura do seu elemento pai */
-    background-color: black; /* Opcional: Adiciona um fundo preto para preencher o espaço antes do carregamento */
+    max-width: 100%; 
+    background-color: black;
 }
 
 .video_apresentacao iframe {
@@ -77,9 +77,9 @@
 
 @media screen and (min-width:1400px) {
     .video_apresentacao {
-        margin-top: -8em;
+        margin-top: -5em;
         margin-left: 2em;
-        scale: 60%
+        scale: 70%
     }
 
     .primeira_sessao_subtitulo {
@@ -91,6 +91,6 @@
         display: grid;
         justify-content: center;
         font-size: 35px;
-        margin-top: -4em
+        margin-top: -2em
     }
 }
