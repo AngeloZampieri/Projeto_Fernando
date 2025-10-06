@@ -49,7 +49,7 @@
 }
 
 .lista_beneficios {
-    gap: 30px
+    gap: 30px;
 }
 
 .lista_beneficios li {
@@ -58,14 +58,14 @@
     text-decoration: none;
     color: var(--fonte-preta);
     font-family: var(--font-secundaria);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
-    text-align: center
+    text-align: left
 }
 
 .lista_beneficios li img {
     width: 30px;
-    margin-right: 1em
+    margin-right: 0.5em
 }
 
 @media screen and (min-width:1024px) {
