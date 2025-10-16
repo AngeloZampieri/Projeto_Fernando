@@ -9,6 +9,4 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 fbq('init', '1145714507698508');
 fbq('track', 'PageView');
 
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1145714507698508&ev=PageView&noscript=1"
-/></noscript>
+
